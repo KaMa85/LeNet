@@ -205,66 +205,6 @@ public static class LeNet5Weights
 """
 
 for name, param in weights_dict.items():
-    if param.ndim == 1:
-        flat_param = param.flatten()
-        array_str = ', '.join(map(str, flat_param))
-        csharp_code += f"""
-    public static readonly float[] {name.replace('.', '_')} = new float[]
-    {{
-        {array_str}
-    }};
-"""
-    elif param.ndim == 2:
-        for i, sub_param in enumerate(param):
-            flat_param = sub_param.flatten()
-            array_str = ', '.join(map(str, flat_param))
-            csharp_code += f"""
-    public static readonly float[] {name.replace('.', '_')}_{i} = new float[]
-    {{
-        {array_str}
-    }};
-"""
-    elif param.ndim == 3:
-        for i, sub_param in enumerate(param):
-            for j, sub_sub_param in enumerate(sub_param):
-                flat_param = sub_sub_param.flatten()
-                array_str = ', '.join(map(str, flat_param))
-                csharp_code += f"""
-    public static readonly float[] {name.replace('.', '_')}_{i}_{j} = new float[]
-    {{
-        {array_str}
-    }};
-"""
-    elif param.ndim == 4:
-        for i, sub_param in enumerate(param):
-            for j, sub_sub_param in enumerate(sub_param):
-                for k, sub_sub_sub_param in enumerate(sub_sub_param):
-                    flat_param = sub_sub_sub_param.flatten()
-                    array_str = ', '.join(map(str, flat_param))
-                    csharp_code += f"""
-    public static readonly float[] {name.replace('.', '_')}_{i}_{j}_{k} = new float[]
-    {{
-        {array_str}
-    }};
-"""
-
-csharp_code += """
-}
-"""
-
-# Save the C# script to a file
-with open('LeNet5Weights.cs', 'w') as f:
-    f.write(csharp_code)
-
-# Create the C# script to save the weights and biases as arrays
-csharp_code = """
-using System;
-
-public static class LeNet5WeightsFinal
-{
-"""
-
-for name, param in weights_dict.items():
     if 'conv1.weight' in name:
         for i, sub_param in enumerate(param):
             flat_param = sub_param.flatten()
@@ -330,7 +270,7 @@ csharp_code += """
 """
 
 # Save the C# script to a file
-with open('LeNet5WeightsFinal.cs', 'w') as f:
+with open('LeNet5Weights.cs', 'w') as f:
     f.write(csharp_code)
 
 # Test the model
