@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\P_Controller.Dependencies.msb4u.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "projectName": "DotNetAdapter",
+        "projectPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "packagesPath": "C:\\Users\\mkave\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\.obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\NuGet.Config",
+          "C:\\Users\\mkave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UnityDeveloperTools/MSBuildForUnity/_packaging/UnityDeveloperTools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "targetAlias": "net46",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "dependencies": {
+            "Microsoft.Windows.MixedReality.DotNetWinRT": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.5.1049, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\P_Controller.Dependencies.msb4u.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\P_Controller.Dependencies.msb4u.csproj",
+        "projectName": "P_Controller.Dependencies.msb4u",
+        "projectPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\P_Controller.Dependencies.msb4u.csproj",
+        "packagesPath": "C:\\Users\\mkave\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\MSBuild\\Output\\obj\\Dependencies\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\NuGet.Config",
+          "C:\\Users\\mkave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UnityDeveloperTools/MSBuildForUnity/_packaging/UnityDeveloperTools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "targetAlias": "net46",
+            "projectReferences": {
+              "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+                "projectPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+                "privateAssets": "analyzers"
+              },
+              "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Library\\PackageCache\\com.unity.collab-proxy@1.14.18\\CollabProxy.csproj": {
+                "projectPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Library\\PackageCache\\com.unity.collab-proxy@1.14.18\\CollabProxy.csproj",
+                "privateAssets": "analyzers"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "dependencies": {
+            "MSBuildForUnity": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.9.1-*, 0.9.1]"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Library\\PackageCache\\com.unity.collab-proxy@1.14.18\\CollabProxy.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Library\\PackageCache\\com.unity.collab-proxy@1.14.18\\CollabProxy.csproj",
+        "projectName": "CollabProxy",
+        "projectPath": "C:\\Users\\mkave\\OneDrive - University of New Mexico\\Laptop Hard\\Unity\\GradianFinal\\Library\\PackageCache\\com.unity.collab-proxy@1.14.18\\CollabProxy.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    }
+  }
+}
