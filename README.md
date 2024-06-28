@@ -2,7 +2,7 @@ LeNetAR: Deploying LeNet Model on AR Headsets
 This Unity project deploys the LeNet model, trained on the MNIST dataset, to AR headsets.
 
 Overview
-LeNetAR leverages the power of augmented reality to bring neural networks into the physical world using the HoloLens. The project is developed using C# within the UnityEngine environment and deployed via the Universal Windows Platform (UWP).
+LeNetAR leverages augmented reality to bring neural networks into the physical world using the HoloLens. The project is developed using C# within the UnityEngine environment and deployed via the Universal Windows Platform (UWP).
 
 Features
 LeNet Model: Utilizes a trained LeNet model on the MNIST dataset for digit recognition.
@@ -13,15 +13,15 @@ Unity: Version 2019.4.18f1 or later
 HoloLens: Microsoft HoloLens or HoloLens 2
 Windows: Universal Windows Platform (UWP) SDK
 Setup
-Clone the Repository:
+Clone the Repository
 sh
 Copy code
-https://github.com/KaMa85/LeNet
+git clone https://github.com/KaMa85/LeNet
 cd LeNetAR
-Open in Unity:
+Open in Unity
 Launch Unity Hub.
 Click on "Add" and select the LeNetAR project directory.
-Build and Deploy:
+Build and Deploy
 Set the build target to UWP.
 Build and deploy to your HoloLens device.
 Usage
@@ -38,13 +38,13 @@ Kaveh Malek
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+Acknowledgments
+Unity: Unity3D
+Microsoft HoloLens: HoloLens
+MNIST Dataset: MNIST
+Amr Kassaem: Enabling built-in voice recognition commands
 
 https://github.com/KaMa85/LeNet/assets/82784239/7ebb861a-7852-4702-925f-e89c9f4d81e4
 
 
 
-Acknowledgments
-Unity: Unity3D
-Microsoft HoloLens: HoloLens
-MNIST Dataset: MNIST
-Amr Kassaem for eneabling built-in voice recognition commands
