@@ -38,7 +38,13 @@ Kaveh Malek
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
+https://github.com/KaMa85/LeNet/assets/82784239/7ebb861a-7852-4702-925f-e89c9f4d81e4
+
+
+
 Acknowledgments
 Unity: Unity3D
 Microsoft HoloLens: HoloLens
 MNIST Dataset: MNIST
+Amr Kassaem for eneabling built-in voice recognition commands
