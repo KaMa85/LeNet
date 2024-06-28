@@ -16,7 +16,7 @@ Setup
 Clone the Repository:
 sh
 Copy code
-git clone https://github.com/yourusername/LeNetAR.git
+https://github.com/KaMa85/LeNet/LeNetAR.git
 cd LeNetAR
 Open in Unity:
 Launch Unity Hub.
