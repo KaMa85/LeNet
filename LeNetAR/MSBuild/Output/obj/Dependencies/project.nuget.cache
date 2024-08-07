@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCUkBylodDGHzhkBxPl5DultYvROXvUZv5/tdE/fhfmdou+tHyDIzcNrlx/OjECfzHSzAR661ho8F0J0WkuJiw==",
+  "dgSpecHash": "rzaL8RF8IlLY2AJU55VWMxDbY7dh/uhJsUEwOMBAdXvTNwTPyrCEx8X95yZXDR5TQ3ugntMt+iA+EBug4eICOg==",
   "success": true,
-  "projectFilePath": "C:\\!\\Unity\\LeNetAR\\Assets\\ARLeNet.Dependencies.msb4u.csproj",
+  "projectFilePath": "C:\\Users\\mkave\\OneDrive\\Documents\\GitHub\\LeNet\\LeNetAR\\Assets\\ARLeNet.Dependencies.msb4u.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mkave\\.nuget\\packages\\microsoft.windows.mixedreality.dotnetwinrt\\0.5.1049\\microsoft.windows.mixedreality.dotnetwinrt.0.5.1049.nupkg.sha512",
     "C:\\Users\\mkave\\.nuget\\packages\\msbuildforunity\\0.9.1-123842\\msbuildforunity.0.9.1-123842.nupkg.sha512",

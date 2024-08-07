@@ -26,9 +26,9 @@
 
   <ItemGroup>
     <!--PROJECT_REFERENCE_TEMPLATE_START-->
-    <ProjectReference Include="C:\!\Unity\LeNetAR\Assets\MRTK\Providers\WindowsMixedReality\Shared\DotNetAdapter\DotNetAdapter.csproj" Condition="">
+    <ProjectReference Include="C:\Users\mkave\OneDrive\Documents\GitHub\LeNet\LeNetAR\Assets\MRTK\Providers\WindowsMixedReality\Shared\DotNetAdapter\DotNetAdapter.csproj" Condition="">
         <!--PRIVATE_REFERENCE_TEMPLATE_START--><!--PRIVATE_REFERENCE_TEMPLATE_END-->
-    </ProjectReference><ProjectReference Include="C:\!\Unity\LeNetAR\Library\PackageCache\com.unity.collab-proxy@1.14.18\CollabProxy.csproj" Condition="">
+    </ProjectReference><ProjectReference Include="C:\Users\mkave\OneDrive\Documents\GitHub\LeNet\LeNetAR\Library\PackageCache\com.unity.collab-proxy@1.14.18\CollabProxy.csproj" Condition="">
         <!--PRIVATE_REFERENCE_TEMPLATE_START--><!--PRIVATE_REFERENCE_TEMPLATE_END-->
     </ProjectReference>
     <!--PROJECT_REFERENCE_TEMPLATE_END-->
