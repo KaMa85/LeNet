@@ -36,9 +36,6 @@ Display the recognition results in real-time within the AR environment.
 
 Citation
 If you use this code, please cite the author:
-
-
-text
 Kaveh Malek
 
 
